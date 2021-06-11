@@ -11,8 +11,8 @@ const Mainsection = () => {
   return (
     <MainContainer id="home" >
       <MainContent>
-        <MainH1> J</MainH1>
-        <MainP1>SDE  </MainP1>
+        <MainH1> Jasmine Baig </MainH1>
+        <MainP1> Software Developer </MainP1>
       </MainContent>
     </MainContainer>
   )
