@@ -94,5 +94,5 @@ export const Img=styled.img`
   position:static;
   // padding-right:0;
   max-width:60vh;
-    width:70vw;
+    width:50vw;
 `

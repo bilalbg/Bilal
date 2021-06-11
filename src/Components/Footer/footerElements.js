@@ -53,7 +53,7 @@ export const FooterH1 = styled.h1`
 export const Footeritems = styled.ul`
 justify-content:center;
 display:flex;
-align-items:center;
+// align-items:center;
 list-style:none;
 margin-right:-22px;
 @media screen and (max-width:700px){

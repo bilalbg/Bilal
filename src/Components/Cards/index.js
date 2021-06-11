@@ -37,7 +37,7 @@ const Cards = ({ pageVisible}) => {
           <Card.Body>
             <Card.Title  >Tetris</Card.Title>
             <Card.Text >
-              Created a Simple Tetris Game using Pygame.
+              Created a Simple Tetris Game using Pygame. Allows for different sized boards with scaling difficulty
             </Card.Text>
             <Button variant="outline-primary">
             <a href="https://github.com/jasminebg/Gamedev/tree/master/pygame" 
@@ -53,10 +53,11 @@ const Cards = ({ pageVisible}) => {
           <Card.Body>
             <Card.Title >Simple webchat application </Card.Title>
             <Card.Text >
-              Webchat created using GOLang and React.JS.
+              Webchat created using GOLang and React.JS. Allows for instant communication between large groups of people
+              and one-on-one messages.
             </Card.Text>
             <Button variant="outline-primary">
-            <a href="https://github.com/jasminebg/Machine-Learning-EECS-4404-/tree/main/Project" 
+            <a href="https://github.com/Jasminebg/GoLang-Webchat" 
               target="_blank" rel="noreferrer"
             >
               Github repository
@@ -67,9 +68,9 @@ const Cards = ({ pageVisible}) => {
       <Card style={{ Cardst}}>
           {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
           <Card.Body>
-            <Card.Title > Game </Card.Title>
+            <Card.Title > Shoot 'em Up Game </Card.Title>
             <Card.Text  >
-              Small game made using Unreal Engine.
+              First person shoot 'em up game made using Unreal Engine.
             </Card.Text>
             <Button variant="outline-primary">
             <a href="https://github.com/jasminebg/Machine-Learning-EECS-4404-/tree/main/Project" 

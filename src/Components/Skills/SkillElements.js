@@ -10,7 +10,7 @@ justify-content: center;
 align-items:center;
 `
 export const Img = styled.img `
-position:relative;
+// position:relative;
  width:150px;
  padding:0px 8px;
 `
