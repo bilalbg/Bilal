@@ -7,7 +7,7 @@ import {
   Cardst
 }from './cardelements'
 
-const Cards = ({animate,togglefocus, pageVisible}) => {
+const Cards = ({ pageVisible}) => {
 
 
   return (
@@ -25,7 +25,7 @@ const Cards = ({animate,togglefocus, pageVisible}) => {
             </Card.Text>
             <Button  variant="outline-primary">
             <a href="https://github.com/jasminebg/Machine-Learning-EECS-4404-/tree/main/Project" 
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Github repository
             </a>
@@ -41,7 +41,7 @@ const Cards = ({animate,togglefocus, pageVisible}) => {
             </Card.Text>
             <Button variant="outline-primary">
             <a href="https://github.com/jasminebg/Gamedev/tree/master/pygame" 
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Github repository
             </a>
@@ -57,7 +57,7 @@ const Cards = ({animate,togglefocus, pageVisible}) => {
             </Card.Text>
             <Button variant="outline-primary">
             <a href="https://github.com/jasminebg/Machine-Learning-EECS-4404-/tree/main/Project" 
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Github repository
             </a>
@@ -73,7 +73,7 @@ const Cards = ({animate,togglefocus, pageVisible}) => {
             </Card.Text>
             <Button variant="outline-primary">
             <a href="https://github.com/jasminebg/Machine-Learning-EECS-4404-/tree/main/Project" 
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Github repository
             </a>

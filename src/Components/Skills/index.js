@@ -26,10 +26,6 @@ import {
 
 const Skill = ({animate,togglefocus, pageVisible}) => {
 
-
-
-  //only show 1 section at time or all ? carousel? or like pages? 
-  // Languages - Libraries - Frameworks ? 
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex, e) => {
@@ -38,8 +34,6 @@ const Skill = ({animate,togglefocus, pageVisible}) => {
 
   return (
     <>
-      {/* <Skillscontainer pageVisible={pageVisible}> */}
-      {/* activeIndex={index} onSelect={handleSelect} */}
       <div >
       <Carousel activeIndex={index} onSelect={handleSelect}  interval={100000}>
         <Carousel.Item>
@@ -65,7 +59,7 @@ const Skill = ({animate,togglefocus, pageVisible}) => {
         <Carousel.Item>
           <Skillcontainer >
             
-          <div style={{padding:'80px',display:'block',display:'flex', flexWrap:'wrap', alignItems:'center',justifyContent:'center'}} >
+          <div style={{padding:'80px',display:'flex', flexWrap:'wrap', alignItems:'center',justifyContent:'center'}} >
               <Img src={docker}/>
               <Img src={git}/>
               <Img src={numpy}/>
@@ -78,21 +72,9 @@ const Skill = ({animate,togglefocus, pageVisible}) => {
               <Img src={pytorch}/>
 
             </div>
-            {/* 
-  docker,
-  git,
-  matplotlib,
-  numpy,
-  pandas,
-  pytorch,
-  reactjs,
-  R,
-  scipy,
-  sklearn */}
             
           <Carousel.Caption>
             <h3>Libraries and Tools</h3>
-            {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
           </Carousel.Caption>
 
           </Skillcontainer>
@@ -100,18 +82,6 @@ const Skill = ({animate,togglefocus, pageVisible}) => {
         </Carousel.Item>
       </Carousel>
       </div>
-{/*         
-        <SkillSection>
-
-        </SkillSection>
-        <SkillSection>
-          
-        </SkillSection>
-        <SkillSection>
-          
-        </SkillSection> */}
-
-      {/* </Skillscontainer> */}
     </>
   )
 }
