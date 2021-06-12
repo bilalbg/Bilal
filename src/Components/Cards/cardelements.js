@@ -37,6 +37,7 @@ export const Cardcontainer = styled.div`
 `
 export const Cardst = styled.div`
   width:35vw;
+  min-height:250px;
   @media screen and (max-width:1000px){
     width:80vw;
   }
@@ -45,9 +46,6 @@ export const Cardst = styled.div`
   &:hover {
     box-shadow:10px 5px 40px 5px  rgba(0,0,0,0.2) ;
     cursor: pointer;
-    .Cardmore {
-    transform: translate(10px, 0);
-  }
 `
 
 export const Cardimg = styled.div`
@@ -75,10 +73,6 @@ export const Carditem = styled.div`
 `
 export const Front = styled.div`
 display:block;
-`
-export const Back = styled.div`
-display:none;
-// height:500px;
 `
 
 export const CardH1 = styled.h1`

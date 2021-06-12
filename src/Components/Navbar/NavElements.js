@@ -40,7 +40,7 @@ export const NavbarContainer = styled.div`
 export const NavLogo = styled(LinkR)`
     color:black;
     justify-self:cflex-start;
-    font-size:2rem;
+    font-size:1.5rem;
     display:flex;
     align-items:center;
     margin-left:24px;

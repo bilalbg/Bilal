@@ -14,7 +14,7 @@ const Cards = ({ pageVisible}) => {
     <>
       <Cardcontainer pageVisible={pageVisible}>
         
-      <Card style={{ Cardst}} >
+      <Card style={{ height:"100%"}} >
           {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
           <Card.Body>
             <Card.Title >Natural Language Processing</Card.Title>
@@ -32,12 +32,14 @@ const Cards = ({ pageVisible}) => {
               </Button>
           </Card.Body>
         </Card>
-      <Card style={{Cardst }}>
+      <Card style={{height:"100%" }}>
           {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
           <Card.Body>
             <Card.Title  >Tetris</Card.Title>
-            <Card.Text >
-              Created a Simple Tetris Game using Pygame. Allows for different sized boards with scaling difficulty
+            <Card.Text style = {{padding:'12px 0px'}} >
+              Created a Simple Tetris Game using Pygame.
+               Allows for different sized boards, difficulties and a scoring
+               function to compete with others or better yourself. 
             </Card.Text>
             <Button variant="outline-primary">
             <a href="https://github.com/jasminebg/Gamedev/tree/master/pygame" 
@@ -48,11 +50,11 @@ const Cards = ({ pageVisible}) => {
             </Button>
           </Card.Body>
         </Card>
-      <Card style={{ Cardst}}>
+      <Card style={{ height:"100%"}}>
           {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
           <Card.Body>
             <Card.Title >Simple webchat application </Card.Title>
-            <Card.Text >
+            <Card.Text style = {{padding:'12px 0px'}}>
               Webchat created using GOLang and React.JS. Allows for instant communication between large groups of people
               and one-on-one messages.
             </Card.Text>
@@ -65,12 +67,14 @@ const Cards = ({ pageVisible}) => {
             </Button>
           </Card.Body>
         </Card>
-      <Card style={{ Cardst}}>
+      <Card style={{ height:"100%"}}>
           {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
           <Card.Body>
             <Card.Title > Shoot 'em Up Game </Card.Title>
             <Card.Text  >
-              First person shoot 'em up game made using Unreal Engine.
+              First person shoot 'em up game made using Unreal Engine. Contains scoring 
+              mechanic to allow for competing with others and challenging oneself. Randomization
+              of mechanics to create less monotone gameplay.
             </Card.Text>
             <Button variant="outline-primary">
             <a href="https://github.com/jasminebg/Machine-Learning-EECS-4404-/tree/main/Project" 
@@ -82,10 +86,6 @@ const Cards = ({ pageVisible}) => {
           </Card.Body>
         </Card>
       </Cardcontainer>
-
-
-      
-      
       {/* <Cardcontainer pageVisible={pageVisible}>
 
         <Carditem>
