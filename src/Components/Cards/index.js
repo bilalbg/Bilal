@@ -3,8 +3,7 @@ import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import './Cards.css'
 import {
-  Cardcontainer,
-  Cardst
+  Cardcontainer
 }from './cardelements'
 
 const Cards = ({ pageVisible}) => {
