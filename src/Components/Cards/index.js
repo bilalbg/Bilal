@@ -42,7 +42,7 @@ const Cards = ({ pageVisible}) => {
             <Card.Title >Webchat Application [In-progress] </Card.Title>
             <Card.Text style = {{padding:'12px 0px'}}>
               <ul>
-                <li>Webchat created using GO and React JS</li>
+                <li>Webchat created using <b> GO </b> and <b>React JS </b> </li>
                 <li>Uses websockets to allow for instant communication</li>
                 <li>Speak with large groups of people or with a single person in private messages</li>
               </ul>
@@ -68,9 +68,9 @@ const Cards = ({ pageVisible}) => {
                 <li>Allows for different sized boards and difficulties</li>
                 <li>Scoring function to allow for competition with others or yourself</li>
               </ul>
-              Created a Simple Tetris Game using Pygame.
+              {/* Created a Simple Tetris Game using Pygame.
                Allows for different sized boards, difficulties and a scoring
-               function to compete with others or better yourself. 
+               function to compete with others or better yourself.  */}
             </Card.Text>
             <Button variant="outline-primary">
             <a href="https://github.com/jasminebg/Gamedev/tree/master/pygame" 
