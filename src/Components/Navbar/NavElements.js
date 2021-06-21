@@ -5,7 +5,7 @@ import { Link as LinkR} from 'react-router-dom'
 export const Nav=styled.nav`
 
 // background:lightblue;
-background:#BE582C;
+background:#6aa9d8;
 padding:48px 24px;
 flex-direction:row;
 height:80px;
