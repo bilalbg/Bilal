@@ -4,10 +4,10 @@ import styled from 'styled-components'
 export const Cardcontainer = styled.div`
   display:${({pageVisible}) => (pageVisible ? 'grid':'none')};
   z-index:999;
-  height:50vh;
+  height:70vh;
   max-width:100vw;
   width:80vw;
-  grid-template-columns:1fr 1fr;
+  grid-template-columns:1fr 1fr 1fr;
   grid-gap:2vw;
   justify-content:center;
   align-items:center;

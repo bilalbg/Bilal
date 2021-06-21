@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import {Skillcontainer, Img} from './SkillElements';
 import {
-  
+  GO,
   C,
   CPP,
   html,
@@ -23,6 +23,7 @@ import {
   scipy,
   sklearn
 } from  '../../Images/Tools and Libraries';
+import { Grow } from '@material-ui/core';
 
 const Skill = ({animate,togglefocus, pageVisible}) => {
 
@@ -39,6 +40,7 @@ const Skill = ({animate,togglefocus, pageVisible}) => {
         <Carousel.Item>
           <Skillcontainer >
             <div style={{padding:'80px',display:'flex', flexWrap:'wrap', flexDirection:'row', alignItems:'center',justifyContent:'center'}} >
+              <Img src={GO}/>
               <Img src={C} style = {{width:'80px'}}/>
               <Img src={CPP} style = {{width:'80px'}}/>
               <Img src={html}/>
