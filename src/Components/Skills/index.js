@@ -23,9 +23,8 @@ import {
   scipy,
   sklearn
 } from  '../../Images/Tools and Libraries';
-import { Grow } from '@material-ui/core';
 
-const Skill = ({animate,togglefocus, pageVisible}) => {
+const Skill = () => {
 
   const [index, setIndex] = useState(0);
 

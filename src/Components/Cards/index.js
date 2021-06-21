@@ -34,7 +34,7 @@ const Cards = ({ pageVisible}) => {
       <Card style={{height:"100%" }}>
           {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
           <Card.Body>
-            <Card.Title  >Tetris</Card.Title>
+            <Card.Title  >Tetris [In-progress] </Card.Title>
             <Card.Text style = {{padding:'12px 0px'}} >
               Created a Simple Tetris Game using Pygame.
                Allows for different sized boards, difficulties and a scoring
@@ -52,7 +52,7 @@ const Cards = ({ pageVisible}) => {
       <Card style={{ height:"100%"}}>
           {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
           <Card.Body>
-            <Card.Title >Simple webchat application </Card.Title>
+            <Card.Title >Simple webchat application [In-progress] </Card.Title>
             <Card.Text style = {{padding:'12px 0px'}}>
               Webchat created using GOLang and React.JS. Allows for instant communication with websockets between large groups of people
               and one-on-one messages.

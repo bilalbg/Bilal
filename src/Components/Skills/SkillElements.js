@@ -8,6 +8,7 @@ width:70vw;
 max-width:1000px;
 justify-content: center;
 align-items:center;
+min-width:400px;
 `
 export const Img = styled.img `
 // position:relative;
