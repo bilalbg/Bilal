@@ -6,7 +6,6 @@ import About from './pages/About';
 import Project from './pages/Projects';
 import Skills from './pages/Skills';
 import {BrowserRouter , Switch, Route} from 'react-router-dom';
-import './pageTransitions/Transitions.scss'
 
 
 export default function App() {

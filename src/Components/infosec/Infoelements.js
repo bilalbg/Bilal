@@ -65,7 +65,7 @@ export const Columnheader = styled.h1`
   font-size:26px;
   line-height:1.1;
   font-weight:600;
-  color:${({lightText}) => (lightText ? 'white':'dimgrey')};
+  color:${({lightText}) => (lightText ? 'white':'black')};
 
   @media screen and (max-width:768px){
     font-size:18px;
@@ -77,7 +77,7 @@ max-width:440px;
 // margin-bottom:35px;
 font-size:18px;
 line-height:24px;
-color:${({darkText})=>(darkText ?'dimgray':'darkblue')}
+color:${({darkText})=>(darkText ?'black':'darkblue')}
 `
 export const Btnwrap = styled.div`
   display:flex;

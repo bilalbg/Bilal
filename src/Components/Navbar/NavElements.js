@@ -4,7 +4,8 @@ import { Link as LinkR} from 'react-router-dom'
 
 export const Nav=styled.nav`
 
-background:lightblue;
+// background:lightblue;
+background: #BCA0BC
 padding:48px 24px;
 flex-direction:row;
 height:80px;
