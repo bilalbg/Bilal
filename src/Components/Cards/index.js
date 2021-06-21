@@ -52,7 +52,6 @@ const Cards = ({ pageVisible}) => {
               <br/>
               <br/>
               <br/>
-              <br/>
               {/* Webchat created using GOLang and React.JS. Allows for instant communication with websockets between large groups of people
               and one-on-one messages. */}
             </Card.Text>
