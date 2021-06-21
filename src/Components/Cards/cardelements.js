@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const Cardcontainer = styled.div`
   display:${({pageVisible}) => (pageVisible ? 'grid':'none')};
   z-index:999;
-  height:70vh;
+  height:50vh;
   max-width:100vw;
   width:80vw;
   grid-template-columns:1fr 1fr 1fr;

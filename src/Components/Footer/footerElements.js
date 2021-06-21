@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export const Foot=styled.footer`
   // background:lightblue;
-  background: #BCA0BC
+  background: #bca0bc
   padding:48px 24px;
   flex-direction:column;
 

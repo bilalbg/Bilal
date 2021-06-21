@@ -31,6 +31,23 @@ const Cards = ({ pageVisible}) => {
               </Button>
           </Card.Body>
         </Card>
+      <Card style={{ height:"100%"}}>
+          {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+          <Card.Body>
+            <Card.Title >Webchat Application [In-progress] </Card.Title>
+            <Card.Text style = {{padding:'12px 0px'}}>
+              Webchat created using GOLang and React.JS. Allows for instant communication with websockets between large groups of people
+              and one-on-one messages.
+            </Card.Text>
+            <Button variant="outline-primary">
+            <a href="https://github.com/Jasminebg/GoLang-Webchat" 
+              target="_blank" rel="noreferrer"
+            >
+              Github repository
+            </a>
+            </Button>
+          </Card.Body>
+        </Card>
       <Card style={{height:"100%" }}>
           {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
           <Card.Body>
@@ -42,23 +59,6 @@ const Cards = ({ pageVisible}) => {
             </Card.Text>
             <Button variant="outline-primary">
             <a href="https://github.com/jasminebg/Gamedev/tree/master/pygame" 
-              target="_blank" rel="noreferrer"
-            >
-              Github repository
-            </a>
-            </Button>
-          </Card.Body>
-        </Card>
-      <Card style={{ height:"100%"}}>
-          {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
-          <Card.Body>
-            <Card.Title >Simple webchat application [In-progress] </Card.Title>
-            <Card.Text style = {{padding:'12px 0px'}}>
-              Webchat created using GOLang and React.JS. Allows for instant communication with websockets between large groups of people
-              and one-on-one messages.
-            </Card.Text>
-            <Button variant="outline-primary">
-            <a href="https://github.com/Jasminebg/GoLang-Webchat" 
               target="_blank" rel="noreferrer"
             >
               Github repository
