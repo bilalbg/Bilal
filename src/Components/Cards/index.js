@@ -24,7 +24,7 @@ const Cards = ({ pageVisible}) => {
                 <li>Developed with <b>Python</b> on <b> Jupyter notebook</b> </li>
               </ul>
             </Card.Text>
-            <div buttonpos>
+            <buttonpos>
             <Button  variant="outline-primary" >
             <a href="https://github.com/jasminebg/Machine-Learning-EECS-4404-/tree/main/Project" 
               target="_blank" rel="noreferrer"
@@ -32,7 +32,7 @@ const Cards = ({ pageVisible}) => {
               Github repository
             </a>
               </Button >
-            </div>
+            </buttonpos>
           </Card.Body>
         </Card>
       <Card style={{ height:"100%", maxheight:"400px" }}>
@@ -45,7 +45,7 @@ const Cards = ({ pageVisible}) => {
                 <li>Speak with large groups of people in public rooms or with a single person in private messages</li>
               </ul>
             </Card.Text>
-            <div buttonpos>
+            < buttonpos>
             <Button variant="outline-primary">
             <a href="https://github.com/Jasminebg/GoLang-Webchat" 
               target="_blank" rel="noreferrer"
@@ -53,7 +53,7 @@ const Cards = ({ pageVisible}) => {
               Github repository
             </a>
             </Button>
-            </div>
+            </buttonpos>
           </Card.Body>
         </Card>
       <Card style={{height:"100%", maxheight:"400px"  }}>
@@ -66,7 +66,7 @@ const Cards = ({ pageVisible}) => {
                 <li>Scoring function to allow for competition with others or yourself</li>
               </ul>
             </Card.Text>
-            <div buttonpos>
+            < buttonpos>
             <Button variant="outline-primary" >
             <a href="https://github.com/jasminebg/Gamedev/tree/master/pygame" 
               target="_blank" rel="noreferrer"
@@ -74,7 +74,7 @@ const Cards = ({ pageVisible}) => {
               Github repository
             </a>
             </Button>
-            </div>
+            </buttonpos>
           </Card.Body>
         </Card>
       </Cardcontainer>
