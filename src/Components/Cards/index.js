@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
-import CardStyles from './Cards.css'
+import './Cards.css'
 import {
   Cardcontainer,
   Buttonpos
@@ -14,7 +14,7 @@ const Cards = ({ pageVisible}) => {
     <>
       <Cardcontainer pageVisible={pageVisible}>
         
-      <Card  bsPrefix = {CardStyles} >
+      <Card className="bg-dark text-white" style={{ height:"100%", maxheight:"400px" }} >
           <Card.Body>
             <Card.Title  >Natural Language Processing</Card.Title>
             <Card.Text >
@@ -35,7 +35,7 @@ const Cards = ({ pageVisible}) => {
             </Buttonpos>
           </Card.Body>
         </Card>
-      <Card  bsPrefix = {CardStyles}>
+      <Card className="bg-dark text-white" style={{ height:"100%", maxheight:"400px" }}>
           <Card.Body>
             <Card.Title >Webchat Application</Card.Title>
             <Card.Text style = {{padding:'12px 0px'}}>
@@ -56,7 +56,7 @@ const Cards = ({ pageVisible}) => {
             </Buttonpos>
           </Card.Body>
         </Card>
-      <Card bsPrefix = {CardStyles}>
+      <Card className="bg-dark text-white" style={{height:"100%", maxheight:"400px"  }}>
           <Card.Body>
             <Card.Title  > Tetris </Card.Title>
             <Card.Text style = {{padding:'12px 0px'}} >
