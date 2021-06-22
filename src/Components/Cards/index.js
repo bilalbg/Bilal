@@ -14,7 +14,7 @@ const Cards = ({ pageVisible}) => {
     <>
       <Cardcontainer pageVisible={pageVisible}>
         
-      <Card className="bg-dark text-white"  bsPrefix = {CardStyles} >
+      <Card  bsPrefix = {CardStyles} >
           <Card.Body>
             <Card.Title  >Natural Language Processing</Card.Title>
             <Card.Text >
@@ -35,7 +35,7 @@ const Cards = ({ pageVisible}) => {
             </Buttonpos>
           </Card.Body>
         </Card>
-      <Card className="bg-dark text-white" bsPrefix = {CardStyles}>
+      <Card  bsPrefix = {CardStyles}>
           <Card.Body>
             <Card.Title >Webchat Application</Card.Title>
             <Card.Text style = {{padding:'12px 0px'}}>
@@ -56,7 +56,7 @@ const Cards = ({ pageVisible}) => {
             </Buttonpos>
           </Card.Body>
         </Card>
-      <Card className="bg-dark text-white"  bsPrefix = {CardStyles}>
+      <Card bsPrefix = {CardStyles}>
           <Card.Body>
             <Card.Title  > Tetris </Card.Title>
             <Card.Text style = {{padding:'12px 0px'}} >
