@@ -35,6 +35,15 @@ export const Cardcontainer = styled.div`
   
 
 `
+
+export const buttonpos = styled.div` 
+position: absolute;
+bottom:10px;
+`
+
+
+
+
 // export const Cardst = styled.div`
 //   width:35vw;
 //   max-height:400px;
