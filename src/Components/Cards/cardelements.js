@@ -36,7 +36,7 @@ export const Cardcontainer = styled.div`
 
 `
 
-export const buttonpos = styled.div` 
+export const Buttonpos = styled.div` 
 position: absolute;
 bottom:10px;
 `
