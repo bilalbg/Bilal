@@ -35,84 +35,84 @@ export const Cardcontainer = styled.div`
   
 
 `
-export const Cardst = styled.div`
-  width:35vw;
-  max-height:400px;
-  min-height:250px;
-  // padding-left:5px;
-  @media screen and (max-width:1000px){
-    width:80vw;
-  }
-  box-shadow: 10px 5px 40px 0px rgba(0,0,0,0.1);
+// export const Cardst = styled.div`
+//   width:35vw;
+//   max-height:400px;
+//   min-height:250px;
+//   // padding-left:5px;
+//   @media screen and (max-width:1000px){
+//     width:80vw;
+//   }
+//   box-shadow: 10px 5px 40px 0px rgba(0,0,0,0.1);
 
-  &:hover {
-    box-shadow:10px 5px 40px 5px  rgba(0,0,0,0.2) ;
-    cursor: pointer;
-`
+//   &:hover {
+//     box-shadow:10px 5px 40px 5px  rgba(0,0,0,0.2) ;
+//     cursor: pointer;
+// `
 
-export const Cardimg = styled.div`
-  @media screen and (max-width:1000px){
-    display:none;
-  }
-`
-
-
-export const Carditem = styled.div`
-  opacity:1;
-  border-radius:15px;
-  margin: 5px auto 5px auto;
-  width:100%;
-  height:90%;
-  background:white;
-  box-shadow: 10px 5px 40px 0px rgba(0,0,0,0.1);
-
-  &:hover {
-    box-shadow:10px 5px 40px 5px  rgba(0,0,0,0.2) ;
-    cursor: pointer;
-    .Cardmore {
-    transform: translate(10px, 0);
-  }
-`
-export const Front = styled.div`
-display:block;
-`
+// export const Cardimg = styled.div`
+//   @media screen and (max-width:1000px){
+//     display:none;
+//   }
+// `
 
 
-export const CardH1 = styled.h1`
-  text-align:center;
-  color=black;
-  font-size:48px;
-  text-align:center;
-  font-weight:bold;
+// export const Carditem = styled.div`
+//   opacity:1;
+//   border-radius:15px;
+//   margin: 5px auto 5px auto;
+//   width:100%;
+//   height:90%;
+//   background:white;
+//   box-shadow: 10px 5px 40px 0px rgba(0,0,0,0.1);
 
-  @media screen and (max-width:1300px){
-    font-size:36px;
-  }
-  @media screen and (max-width:1000px){
-    font-size:34px;
-  }
+//   &:hover {
+//     box-shadow:10px 5px 40px 5px  rgba(0,0,0,0.2) ;
+//     cursor: pointer;
+//     .Cardmore {
+//     transform: translate(10px, 0);
+//   }
+// `
+// export const Front = styled.div`
+// display:block;
+// `
+
+
+// export const CardH1 = styled.h1`
+//   text-align:center;
+//   color=black;
+//   font-size:48px;
+//   text-align:center;
+//   font-weight:bold;
+
+//   @media screen and (max-width:1300px){
+//     font-size:36px;
+//   }
+//   @media screen and (max-width:1000px){
+//     font-size:34px;
+//   }
   
 
-`
-export const CardP = styled.p`
-  color=black;
-  font-size:24px;
-  text-align:center;
-  font-weight:bold;
-  // max-width:600px;
-  transition:.25s;
+// `
+// export const CardP = styled.p`
+//   color=black;
+//   font-size:24px;
+//   text-align:center;
+//   font-weight:bold;
+//   // max-width:600px;
+//   transition:.25s;
 
-  @media screen and (max-width:1300px){
-    font-size:20px;
-  }
-  @media screen and (max-width:1000px){
-    font-size:18px;
-  }
+//   @media screen and (max-width:1300px){
+//     font-size:20px;
+//   }
+//   @media screen and (max-width:1000px){
+//     font-size:18px;
+//   }
 
   
-`
+// `
 
-export const Cardmore = styled.div`
-font-size=15px;
+// export const Cardmore = styled.div`
+// font-size=15px;
 
-`
+// `
