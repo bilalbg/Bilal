@@ -23,8 +23,8 @@ const Cards = ({ pageVisible}) => {
                 <li>Investigated Semantic Similarity between words by created a SGD matrix factorization algorithm</li>
                 <li>Developed with <b>Python</b> on <b> Jupyter notebook</b> </li>
               </ul>
-              <br/>
-              <br/>
+              {/* <br/>
+              <br/> */}
               {/* Used latent semantic analysis to derive word representations 
               for an English Wikipedia Dump text corpus and investigated semantic similarity
               between words by creating a SGD matrix factorization algorithm. */}
@@ -48,10 +48,10 @@ const Cards = ({ pageVisible}) => {
                 <li>Uses websockets to allow for instant communication</li>
                 <li>Speak with large groups of people or with a single person in private messages</li>
               </ul>
+              {/* <br/>
               <br/>
               <br/>
-              <br/>
-              <br/>
+              <br/> */}
               {/* Webchat created using GOLang and React.JS. Allows for instant communication with websockets between large groups of people
               and one-on-one messages. */}
             </Card.Text>
@@ -74,10 +74,10 @@ const Cards = ({ pageVisible}) => {
                 <li>Allows for different sized boards and difficulties</li>
                 <li>Scoring function to allow for competition with others or yourself</li>
               </ul>
+              {/* <br/>
               <br/>
               <br/>
-              <br/>
-              <br/>
+              <br/> */}
               {/* Created a Simple Tetris Game using Pygame.
                Allows for different sized boards, difficulties and a scoring
                function to compete with others or better yourself.  */}

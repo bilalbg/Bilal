@@ -37,7 +37,7 @@ export const Cardcontainer = styled.div`
 `
 export const Cardst = styled.div`
   width:35vw;
-  max-height:450px;
+  max-height:400px;
   min-height:250px;
   @media screen and (max-width:1000px){
     width:80vw;
