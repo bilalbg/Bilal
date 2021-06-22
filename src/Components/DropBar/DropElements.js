@@ -7,7 +7,7 @@ export const DropBarContainer = styled.aside`
   z-index:1001;
   width:100%;
   height:100%;
-  background:lightblue;
+  background:#272644;
   display:grid;
   alight-items:center;
   top:0;

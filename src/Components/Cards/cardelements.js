@@ -39,6 +39,7 @@ export const Cardst = styled.div`
   width:35vw;
   max-height:400px;
   min-height:250px;
+  // padding-left:5px;
   @media screen and (max-width:1000px){
     width:80vw;
   }
@@ -76,7 +77,9 @@ export const Front = styled.div`
 display:block;
 `
 
+
 export const CardH1 = styled.h1`
+  text-align:center;
   color=black;
   font-size:48px;
   text-align:center;
