@@ -27,7 +27,7 @@ export const Cardcontainer = styled.div`
     grid-template-columns:1fr   ;
     height:900px;
     width:90vw;
-    grid-gap:1vw;
+    grid-gap:5vw;
     padding-top:100px;
     // padding-bottom:100px;
     // padding:100px;
