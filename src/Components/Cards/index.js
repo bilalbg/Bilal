@@ -29,7 +29,7 @@ const Cards = ({ pageVisible}) => {
               for an English Wikipedia Dump text corpus and investigated semantic similarity
               between words by creating a SGD matrix factorization algorithm. */}
             </Card.Text>
-            <Button  variant="outline-primary" style={{postion:"absolute", bottom:"10px"}}>
+            <Button  variant="outline-primary" >
             <a href="https://github.com/jasminebg/Machine-Learning-EECS-4404-/tree/main/Project" 
               target="_blank" rel="noreferrer"
             >
@@ -55,7 +55,7 @@ const Cards = ({ pageVisible}) => {
               {/* Webchat created using GOLang and React.JS. Allows for instant communication with websockets between large groups of people
               and one-on-one messages. */}
             </Card.Text>
-            <Button variant="outline-primary" style={{postion:"absolute", bottom:"10px"}}>
+            <Button variant="outline-primary">
             <a href="https://github.com/Jasminebg/GoLang-Webchat" 
               target="_blank" rel="noreferrer"
             >
@@ -82,7 +82,7 @@ const Cards = ({ pageVisible}) => {
                Allows for different sized boards, difficulties and a scoring
                function to compete with others or better yourself.  */}
             </Card.Text>
-            <Button variant="outline-primary" style={{postion:"absolute", bottom:"10px"}}>
+            <Button variant="outline-primary" >
             <a href="https://github.com/jasminebg/Gamedev/tree/master/pygame" 
               target="_blank" rel="noreferrer"
             >
