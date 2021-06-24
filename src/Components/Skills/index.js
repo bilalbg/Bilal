@@ -13,10 +13,10 @@ import {
 } from '../../Images/Langs';
 import {
   docker,
-  git,
   matplotlib,
   numpy,
   pandas,
+  git,
   pytorch,
   reactjs,
   R,
