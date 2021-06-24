@@ -73,7 +73,7 @@ export const DropBtn = styled.div`
   display:flex;
   justify-content:center;
 `
-export const DropRoute = styled(LinkR)`
+export const DropRoute = styled.a`
 border-radius:50px;
 background:white;
 white-space:nowrap;

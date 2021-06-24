@@ -10,6 +10,7 @@ import {
   DropRoute
 
 } from './DropElements';
+import Resume from "../../Images/Resume.pdf"
 
 const Dropbar = ({isOpen,toggle}) => {
   return (
@@ -24,7 +25,7 @@ const Dropbar = ({isOpen,toggle}) => {
           <DropLink to="/skills" onClick={toggle}>Skills</DropLink>
         </DropMenu>
         <DropBtn>
-          <DropRoute to='/Resume'>Resume</DropRoute>
+          <DropRoute href={Resume} target="_blank" rel='noopener noreferrer'>Resume</DropRoute>
         </DropBtn>
       </DropWrapper>
 
