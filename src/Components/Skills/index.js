@@ -62,11 +62,11 @@ const Skill = () => {
             
           <div style={{padding:'80px',display:'flex', flexWrap:'wrap', alignItems:'center',justifyContent:'center'}} >
               <Img src={docker}/>
-              <Img src={pytorch}/>
               <Img src={numpy}/>
               <Img src={pandas}/>
               <Img src={reactjs}/>
               <Img src={R}/>
+              <Img src={pytorch}/>
               <Img src={matplotlib} style = {{width:'90px'}}/>
               <Img src={scipy} style = {{width:'90px'}}/>
               <Img src={sklearn} style = {{width:'130px'}}/>
