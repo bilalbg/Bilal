@@ -42,7 +42,7 @@ const Cards = ({ pageVisible}) => {
               <ul>
                 <li>Webchat created using <b> GO </b> and <b>React JS </b> </li>
                 <li>Uses websockets to allow for instant communication</li>
-                <li>Speak with large groups of people in public rooms or with a single person in private messages</li>
+                <li>Speak with large groups of people in public rooms or with a single person in private messages</li>             
               </ul>
             </Card.Text>
             < Buttonpos>
@@ -51,6 +51,13 @@ const Cards = ({ pageVisible}) => {
               target="_blank" rel="noreferrer"
             >
               Github repository
+            </a>
+            </Button>
+            <Button variant="outline-secondary">
+              <a href="https://jsgochat.herokuapp.com/"
+              target="_blank" rel="noreferrer"
+            >
+              Webchat
             </a>
             </Button>
             </Buttonpos>
