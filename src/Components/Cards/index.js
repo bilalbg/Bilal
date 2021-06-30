@@ -46,14 +46,14 @@ const Cards = ({ pageVisible}) => {
               </ul>
             </Card.Text>
             < Buttonpos>
-            <Button variant="outline-primary">
+            <Button variant="outline-primary" style={{margin:'35px'}}>
             <a href="https://github.com/Jasminebg/GoLang-Webchat" 
               target="_blank" rel="noreferrer"
             >
               Github repository
             </a>
             </Button>
-            <Button variant="outline-secondary">
+            <Button variant="outline-secondary" style={{margin:'3px'}} >
               <a href="https://jsgochat.herokuapp.com/"
               target="_blank" rel="noreferrer"
             >
