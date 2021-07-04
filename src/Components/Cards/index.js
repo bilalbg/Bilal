@@ -41,8 +41,10 @@ const Cards = () => {
             <Card.Text style = {{padding:'12px 0px'}}>
               <ul>
                 <li>Webchat created using <b> GO </b> and <b>React JS </b> </li>
-                <li>Uses websockets to allow for instant communication</li>
-                <li>Speak with large groups of people in public rooms or with a single person in private messages</li>             
+                <li>Deployed on Heroku using Docker</li>
+                <li>Uses websockets to allow for instant communication between clients</li>
+                <li>Speak with large groups of people in public rooms or
+                   with a single person in private messages</li>             
               </ul>
             </Card.Text>
             < Buttonpos>
@@ -68,9 +70,10 @@ const Cards = () => {
             <Card.Title  > Tetris </Card.Title>
             <Card.Text style = {{padding:'12px 0px'}} >
               <ul>
-                <li>Tetris game made using <b>Pygame</b> in Python</li>
-                <li>Allows for different sized boards and difficulties</li>
-                <li>Scoring function to allow for competition with others or yourself</li>
+                <li>Tetris game made using <b>Python</b> and the <b>pygame</b> library </li>
+                <li>Developed scoring function to compete with ones self or others.</li>
+                <li>Developed option to choose multiple difficulties and a scaling 
+                  difficulty to allow for the game to be more challengingand less monotone.</li>
               </ul>
             </Card.Text>
             < Buttonpos>
