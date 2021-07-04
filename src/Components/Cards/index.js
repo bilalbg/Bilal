@@ -5,7 +5,7 @@ import './Cards.css'
 import {
   Cardcontainer,
   Buttonpos,
-  ulistist
+  ulist
 }from './cardelements'
 
 const Cards = () => {
