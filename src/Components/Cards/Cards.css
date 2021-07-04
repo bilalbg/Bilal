@@ -6,18 +6,12 @@
   *{
     font-size:15px;
   }
-  .card{
-    min-width: none;
-  }
   
 
 }
 @media screen and  (max-width:650px){
   *{
     font-size:12px;
-  }
-  .card{
-    min-width: none;
   }
   
 
