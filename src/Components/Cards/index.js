@@ -4,7 +4,8 @@ import Button from 'react-bootstrap/Button'
 import './Cards.css'
 import {
   Cardcontainer,
-  Buttonpos
+  Buttonpos,
+  ulistist
 }from './cardelements'
 
 const Cards = () => {
@@ -14,15 +15,16 @@ const Cards = () => {
     <>
       <Cardcontainer>
         
-      <Card className="bg-dark text-white" style={{ height:"100%", maxheight:"400px" }} >
+      <Card className="bg-dark text-white">
           <Card.Body>
             <Card.Title  >Natural Language Processing</Card.Title>
             <Card.Text >
-              <ul>
-                <li>Used Latent Semantic Analysis to derive word represenations for an English Wiki dump text corpus</li>
-                <li>Investigated Semantic Similarity between words by created a SGD matrix factorization algorithm</li>
-                <li>Developed with <b>Python</b> on <b> Jupyter notebook</b> </li>
-              </ul>
+              <ulist>
+                <li>Created a Latent Semantic Analysis algorithm for an English Wikipedia Dump text corpus of 490,000 documents in jupyter</li>
+                <li>Used the <b> scikit-learn </b> library to create a sparse matrix representation of the top 10,000 most frequent words in a vocabulistary from all the documents</li>
+                <li>Visualized the top 300 most frequent words among 490,000 
+                  documents on a 2D graph using t-SNE from the <b> scikit-learn </b> library</li>
+              </ulist>
             </Card.Text>
             <Buttonpos>
             <Button  variant="outline-primary" >
@@ -35,17 +37,17 @@ const Cards = () => {
             </Buttonpos>
           </Card.Body>
         </Card>
-      <Card className="bg-dark text-white" style={{ height:"100%", maxheight:"400px" }}>
+      <Card className="bg-dark text-white">
           <Card.Body>
             <Card.Title >Webchat Application</Card.Title>
             <Card.Text style = {{padding:'12px 0px'}}>
-              <ul>
-                <li>Webchat created using <b> GO </b> and <b>React JS </b> </li>
+              <ulist>
+                <li>Created a real time chat using <b> GO </b>  for the backend and <b>React JS </b> for the frontend   </li>
                 <li>Deployed on Heroku using Docker</li>
                 <li>Uses websockets to allow for instant communication between clients</li>
                 <li>Speak with large groups of people in public rooms or
                    with a single person in private messages</li>             
-              </ul>
+              </ulist>
             </Card.Text>
             < Buttonpos>
             <Button variant="outline-primary" style={{margin:'3px'}}>
@@ -65,16 +67,16 @@ const Cards = () => {
             </Buttonpos>
           </Card.Body>
         </Card>
-      <Card className="bg-dark text-white" style={{height:"100%", maxheight:"400px"  }}>
+      <Card className="bg-dark text-white">
           <Card.Body>
             <Card.Title  > Tetris </Card.Title>
             <Card.Text style = {{padding:'12px 0px'}} >
-              <ul>
+              <ulist>
                 <li>Tetris game made using <b>Python</b> and the <b>pygame</b> library </li>
                 <li>Developed scoring function to compete with ones self or others.</li>
-                <li>Developed option to choose multiple difficulties and a scaling 
-                  difficulty to allow for the game to be more challengingand less monotone.</li>
-              </ul>
+                <li>Developed option to choose mulisttiple difficulistties and a scaling 
+                  difficulistty to allow for the game to be more challengingand less monotone.</li>
+              </ulist>
             </Card.Text>
             < Buttonpos>
               <Button variant="outline-primary" >

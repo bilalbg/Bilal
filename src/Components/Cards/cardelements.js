@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const Cardcontainer = styled.div`
   display:grid;
   z-index:999;
-  height:50vh;
+  height:70vh;
   max-width:100vw;
   width:80vw;
   grid-template-columns:1fr 1fr 1fr;
@@ -14,20 +14,21 @@ export const Cardcontainer = styled.div`
   // background:lightyellow;
   padding-bottom:10px;
 
-  @media screen and (max-width:1000px){
+  @media screen and (max-width:1250px){
     grid-template-columns:1fr 1fr  ;
     // height:60vh;
     width:95vw;
     grid-gap:1vw;
     padding-bottom:10vh;
     // padding:100px;
+    height:70vh;
   }
   
-  @media screen and (max-width:550px){
+  @media screen and (max-width:650px){
     grid-template-columns:1fr   ;
-    height:900px;
+    height:90vh;
     width:90vw;
-    grid-gap:5vw;
+    grid-gap:2vw;
     padding-top:100px;
     // padding-bottom:100px;
     // padding:100px;
@@ -40,7 +41,9 @@ export const Buttonpos = styled.div`
 position: absolute;
 bottom:10px;
 `
-
+export const ulist = styled.ul`
+padding:5px;
+`
 
 
 
