@@ -2,7 +2,7 @@ import styled from 'styled-components'
 // import {animated, useSpring} from 'react-spring';
 
 export const Cardcontainer = styled.div`
-  display:${({pageVisible}) => (pageVisible ? 'grid':'none')};
+  display:grid;
   z-index:999;
   height:50vh;
   max-width:100vw;

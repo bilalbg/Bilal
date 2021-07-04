@@ -7,12 +7,12 @@ import {
   Buttonpos
 }from './cardelements'
 
-const Cards = ({ pageVisible}) => {
+const Cards = () => {
 
 
   return (
     <>
-      <Cardcontainer pageVisible={pageVisible}>
+      <Cardcontainer>
         
       <Card className="bg-dark text-white" style={{ height:"100%", maxheight:"400px" }} >
           <Card.Body>
