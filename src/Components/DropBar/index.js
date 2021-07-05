@@ -10,7 +10,7 @@ import {
   DropRoute
 
 } from './DropElements';
-import Resume from "../../Images/Resume.pdf"
+import Resume from "../../Images/Bilal_Baig_Resume.pdf"
 
 const Dropbar = ({isOpen,toggle}) => {
   return (
