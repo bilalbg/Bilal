@@ -52,7 +52,6 @@ const Skill = () => {
             
           <Carousel.Caption>
             <h3>Languages</h3>
-            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
 
           </Skillcontainer>

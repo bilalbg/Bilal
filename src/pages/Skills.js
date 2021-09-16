@@ -4,7 +4,6 @@ import Skill from '../Components/Skills'
 const Skills = () => {
   return (
     <>
-    {/* <Infosection {...homeObjThree}/> */}
     <Skill />
      </>
   )
