@@ -20,7 +20,7 @@ const Footer = () => {
             </ContactLink>
           </Footitem>
           <Footitem>
-            <ContactLink href="https://www.linkedin.com/in/bilalbaig/" target="_blank">
+            <ContactLink href="https://www.linkedin.com/in/bilalbg/" target="_blank">
             LinkedIn
             </ContactLink>
           </Footitem>
