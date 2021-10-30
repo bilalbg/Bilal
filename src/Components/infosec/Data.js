@@ -6,7 +6,7 @@ export const homeObjOne = {
   lightText:false,
   lightTextdesc:true,
   topLine:'About Me',
-  headline:'Who is Jasmine?',
+  headline:'Who is Bilal?',
   description:'I am a computer science student in my final year at York University.'+
   ' I have always been fascinated by technology since I was a child and ever since I have '+
   'enjoyed learning as much about it as I could.',

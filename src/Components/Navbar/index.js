@@ -2,7 +2,7 @@ import React from 'react';
 import { FaBars } from 'react-icons/fa';
 // import {IconContext} from 'react-icons/lib';
 import {animateScroll as scroll} from 'react-scroll';
-import Resume from "../../Images/Jasmine_Baig_Resume.pdf"
+import Resume from "../../Images/Bilal_Baig_Resume.pdf"
 // import {Link} from 'react-router-dom';
 import {
     Nav,
@@ -24,7 +24,7 @@ const Navbar = ({toggle}) => {
         <>
             <Nav >
                 <NavbarContainer>
-                    <NavLogo to = '/' onClick={toggleHome}>Jasmine</NavLogo>
+                    <NavLogo to = '/' onClick={toggleHome}>Bilal</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars/>
                     </MobileIcon>

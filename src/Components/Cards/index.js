@@ -30,7 +30,7 @@ const Cards = () => {
             </Card.Text>
             <Buttonpos>
             <Button  variant="outline-primary" >
-            <a href="https://github.com/jasminebg/Machine-Learning-EECS-4404-/tree/main/Project" 
+            <a href="https://github.com/bilalbg/Machine-Learning-EECS-4404-/tree/main/Project" 
               target="_blank" rel="noreferrer"
             >
               Github repository
@@ -52,7 +52,7 @@ const Cards = () => {
             </Card.Text>
             < Buttonpos>
             <Button variant="outline-primary" style={{margin:'3px'}}>
-            <a href="https://github.com/Jasminebg/GoLang-Webchat" 
+            <a href="https://github.com/bilalbg/GoLang-Webchat" 
               target="_blank" rel="noreferrer"
             >
               Github repository
@@ -81,7 +81,7 @@ const Cards = () => {
             </Card.Text>
             < Buttonpos>
               <Button variant="outline-primary" >
-              <a href="https://github.com/jasminebg/Gamedev/tree/master/pygame" 
+              <a href="https://github.com/bilalbg/Gamedev/tree/master/pygame" 
                 target="_blank" rel="noreferrer"
               >
                 Github repository

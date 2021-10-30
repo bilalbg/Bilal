@@ -15,17 +15,17 @@ const Footer = () => {
         <FooterH1>Contact</FooterH1>
         <Footeritems>
           <Footitem>
-            <ContactLink href="https://github.com/jasminebg" target="_blank" >
+            <ContactLink href="https://github.com/bilalbg" target="_blank" >
             Github
             </ContactLink>
           </Footitem>
           <Footitem>
-            <ContactLink href="https://www.linkedin.com/in/jazzybaig/" target="_blank">
+            <ContactLink href="https://www.linkedin.com/in/bilalbaig/" target="_blank">
             LinkedIn
             </ContactLink>
           </Footitem>
           <Footitem>
-            <ContactLink  href="mailto:jasminebaig9@gmail.com" >
+            <ContactLink  href="mailto:bilal.baig316@gmail.com" >
             Email
             </ContactLink>
           </Footitem>
