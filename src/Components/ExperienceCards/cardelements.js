@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const Cardcontainer = styled.div`
   display:grid;
   z-index:999;
-  height:65vh;
+  height:68vh;
   max-width:100vw;
   width:50vw;
   grid-template-columns:1fr;
@@ -48,9 +48,9 @@ padding:5px;
 
 export const Img=styled.img`
   left:15vw;
-  margin-left: 20vw;
+  margin-left: 40%;
   // padding-right:0;
-    width:10vw;
+    width:15%;
 `
 
 // export const Cardst = styled.div`
