@@ -15,7 +15,7 @@ const Cards = () => {
       <Cardcontainer>
         
         <Card className="bg-dark text-white">
-           <Card.Img src={amzn}/>
+           <Card.Img src={amzn} width="30vw"/>
            <Card.ImgOverlay> 
             <Card.Body>
               <Card.Title  >Amazon</Card.Title>
