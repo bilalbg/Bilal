@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
 import './Cards.css'
+import {img} from "../../Images/AMZN.png"
 import {
   Cardcontainer,
   ulist
@@ -14,7 +15,7 @@ const Cards = () => {
       <Cardcontainer>
         
         <Card className="bg-dark text-white">
-          <Card.Img variant="top" src="../../Images/AMZN.png"/>
+          <Card.Img variant="top" src={img}/>
           <Card.Body>
             <Card.Title  >Amazon</Card.Title>
             <Card.Text >
