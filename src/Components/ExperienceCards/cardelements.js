@@ -15,7 +15,7 @@ export const Cardcontainer = styled.div`
   padding-bottom:10px;
 
   @media screen and (max-width:1250px){
-    grid-template-columns:1fr 1fr  ;
+    grid-template-columns:1fr ;
     // height:60vh;
     width:95vw;
     grid-gap:1vw;
@@ -48,8 +48,9 @@ padding:5px;
 
 export const Img=styled.img`
   left:15vw;
+  margin-left: 20vw;
   // padding-right:0;
-    width:5vw;
+    width:10vw;
 `
 
 // export const Cardst = styled.div`
