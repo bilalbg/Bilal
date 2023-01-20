@@ -21,8 +21,8 @@ const Dropbar = ({isOpen,toggle}) => {
       <DropWrapper>
         <DropMenu>
           <DropLink to="/about" onClick={toggle}>About</DropLink>
+          <DropLink to="/experience" onClick={toggle}>Experience</DropLink>
           <DropLink to="/projects" onClick={toggle}>Projects</DropLink>
-          <DropLink to="/skills" onClick={toggle}>Skills</DropLink>
         </DropMenu>
         <DropBtn>
           <DropRoute href={Resume} target="_blank" rel='noopener noreferrer'>Resume</DropRoute>

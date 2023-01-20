@@ -15,7 +15,7 @@ const Cards = () => {
     <>
       <Cardcontainer>
         
-      <Card className="bg-dark text-white">
+        <Card className="bg-dark text-white">
           <Card.Body>
             <Card.Title  >Natural Language Processing</Card.Title>
             <Card.Text >
@@ -39,7 +39,7 @@ const Cards = () => {
             </Buttonpos>
           </Card.Body>
         </Card>
-      <Card className="bg-dark text-white">
+        <Card className="bg-dark text-white">
           <Card.Body>
             <Card.Title >Webchat Application</Card.Title>
             <Card.Text style = {{padding:'12px 0px'}}>
@@ -68,7 +68,7 @@ const Cards = () => {
             </Buttonpos>
           </Card.Body>
         </Card>
-      <Card className="bg-dark text-white">
+        <Card className="bg-dark text-white">
           <Card.Body>
             <Card.Title  > Tetris </Card.Title>
             <Card.Text style = {{padding:'12px 0px'}} >

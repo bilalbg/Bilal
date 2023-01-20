@@ -7,10 +7,9 @@ export const homeObjOne = {
   lightTextdesc:true,
   topLine:'About Me',
   headline:'Who is Bilal?',
-  description:'I am a computer science student in my final year at York University.'+
+  description:'I am a Software Development Engineer, I graduated from York University and worked at Amazon from 2022-2023.'+
   ' I have always been fascinated by technology since I was a child and ever since I have '+
   'enjoyed learning as much about it as I could.',
-  // ' Currently I am fascinated by Machine Learning, Video Game Development and Digital Audio.',
   imgStart:false,
   img:img1,
   alt:'img',
