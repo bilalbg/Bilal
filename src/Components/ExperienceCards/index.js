@@ -4,7 +4,8 @@ import './Cards.css'
 import {amzn} from "../../Images"
 import {
   Cardcontainer,
-  ulist
+  ulist,
+  Img
 }from './cardelements'
 
 const Cards = () => {
@@ -15,8 +16,7 @@ const Cards = () => {
       <Cardcontainer>
         
         <Card className="bg-dark text-white">
-           <Card.Img src={amzn} width="30vw"/>
-           <Card.ImgOverlay> 
+           <Img src={amzn} width="30vw"/>
             <Card.Body>
               <Card.Title  >Amazon</Card.Title>
               <Card.Text >
@@ -33,7 +33,6 @@ const Cards = () => {
                 </ulist>
               </Card.Text>
             </Card.Body>
-          </Card.ImgOverlay>
         </Card>
       </Cardcontainer>
      

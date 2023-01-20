@@ -46,6 +46,15 @@ padding:5px;
 `
 
 
+export const Img=styled.img`
+  // width:100%
+  // marging 0 0 10px 0;
+  left:15vw;
+  position:static;
+  // padding-right:0;
+  max-width:60vh;
+    width:20vw;
+`
 
 // export const Cardst = styled.div`
 //   width:35vw;
