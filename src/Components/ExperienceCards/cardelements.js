@@ -7,7 +7,7 @@ export const Cardcontainer = styled.div`
   height:70vh;
   max-width:100vw;
   width:80vw;
-  grid-template-columns:1fr 1fr 1fr;
+  grid-template-columns:1fr;
   grid-gap:2vw;
   justify-content:center;
   align-items:center;
