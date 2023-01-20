@@ -6,7 +6,7 @@ export const Cardcontainer = styled.div`
   z-index:999;
   height:60vh;
   max-width:100vw;
-  width:35vw;
+  width:30vw;
   grid-template-columns:1fr;
   grid-gap:2vw;
   justify-content:center;
