@@ -4,9 +4,9 @@ import styled from 'styled-components'
 export const Cardcontainer = styled.div`
   display:grid;
   z-index:999;
-  height:60vh;
+  height:65vh;
   max-width:100vw;
-  width:30vw;
+  width:50vw;
   grid-template-columns:1fr;
   grid-gap:2vw;
   justify-content:center;

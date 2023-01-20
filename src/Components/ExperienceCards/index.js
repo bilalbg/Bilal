@@ -14,8 +14,9 @@ const Cards = () => {
       <Cardcontainer>
         
         <Card className="bg-dark text-white">
+          <Card.Img variant="top" src="../../Images/AMZN.svg"/>
           <Card.Body>
-            <Card.Title  >Natural Language Processing</Card.Title>
+            <Card.Title  >Amazon</Card.Title>
             <Card.Text >
               <ulist>
               <li> Worked on services responsible for directing inventory across the world using 
