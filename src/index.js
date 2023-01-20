@@ -3,19 +3,13 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router } from "react-router-dom";
-// import { AppContainer } from 'react-hot-loader';
 
 
 
 ReactDOM.render(
   <Router>
-    {/* <div  className='anim'> */}
         <App/>
-    {/* </div> */}
   </Router>,
-  // <React.StrictMode>
-    // <App />
-  // </React.StrictMode>,
   document.getElementById('root')
 );
 

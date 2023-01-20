@@ -58,13 +58,6 @@ const Cards = () => {
               Github repository
             </a>
             </Button>
-            <Button variant="outline-secondary" style={{margin:'3px'}} >
-              <a href="https://jsgochat.herokuapp.com/"
-              target="_blank" rel="noreferrer"
-            >
-              Webchat
-            </a>
-            </Button>
             </Buttonpos>
           </Card.Body>
         </Card>

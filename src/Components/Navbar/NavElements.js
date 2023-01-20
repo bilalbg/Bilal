@@ -107,9 +107,7 @@ export const NavLinks = styled(LinkR)`
         color:black;
         
       }
-    // &:active{
-    //     border-bottom:3px solid black;
-    // }
+  
 `
 
 export const NavBtn = styled.nav`

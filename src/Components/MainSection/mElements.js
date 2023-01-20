@@ -32,12 +32,7 @@ export const MainH1 = styled.h1`
   text-align:center;
   font-weight:bold;
 
-  // @media screen and (max-width:768px){
-  //   font-size:40px;
-  // }
-  // @media screen and (max-width:480){
-  //   font-size:32px;
-  // }
+
 
 `
 export const MainP1 = styled.p`
@@ -47,12 +42,7 @@ export const MainP1 = styled.p`
   // font-weight:bold;
   max-width:600px;
 
-  // @media screen and (max-width:768px){
-  //   font-size:20px;
-  // }
-  // @media screen and (max-width:480){
-  //   font-size:16px;
-  // }
+
 
   
 `
