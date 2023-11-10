@@ -1,2 +1,2 @@
 # Portfolio
-https://bilalbg.netlify.app/
+https://bilalbg.com/
