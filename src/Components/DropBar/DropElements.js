@@ -50,7 +50,7 @@ top:5rem;
 `
 
 export const DropLink = styled(LinkR)`
-color:black;
+color:white;
 display:flex;
 align-items:center;
 justify-content:center;
@@ -61,6 +61,7 @@ font-weight:bold;
 font-size:1.5rem;
 height:100%;
 cursor:pointer;
+text-shadow: -1px 1px 10px rgba(0, 0, 0, 1)
 
 $:hover{
     color:pink
