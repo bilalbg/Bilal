@@ -37,11 +37,12 @@ export const MainH1 = styled.h1`
 
 `
 export const MainP1 = styled.p`
-  color=black;
+  color=white;
   font-size:1.5rem;
   text-align:center;
   // font-weight:bold;
   max-width:600px;
+  textShadowColor: 'rgba(0,0,0,1)';
 
 
 
