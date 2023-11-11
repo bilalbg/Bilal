@@ -37,7 +37,7 @@ max-width:1100px;
 
 
 export const FooterH1 = styled.h1`
-  color:black;
+  color:white;
   justify-self:cflex-start;
   font-size:1.7rem;
   display:flex;
@@ -45,6 +45,7 @@ export const FooterH1 = styled.h1`
   margin-left:24px;
   font-weight:bold;
   text-decoration:none;
+  text-shadow: -1px 1px 10px rgba(0, 0, 0, 1)
   @media screen and (max-width:700px){
     margin-left:12px;
     font-size:1rem;
@@ -70,7 +71,7 @@ height:80px;
 }
 `
 export const ContactLink = styled.a`
-    color:black;
+    color:white;
     display:flex;
     align-items:center;
     text-decoration:none;
@@ -78,6 +79,7 @@ export const ContactLink = styled.a`
     padding:0 1rem;
     height:100%;
     cursor:pointer;
+    text-shadow: -1px 1px 10px rgba(0, 0, 0, 1)
 
     &:hover {
       border-bottom:3px solid black;
