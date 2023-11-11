@@ -13,7 +13,7 @@ import {
   Img
 } from './Infoelements'
 
-const Infosection = ({lightbg,id,imgStart,topLine,headline,lightText,darkText,description,img,alt,primary,dark,dark2, pageVisible, size,disp}) => {
+const Infosection = ({lightbg,id,imgStart,topLine,headline,lightText,darkText,description,description2,img,alt,primary,dark,dark2, pageVisible, size,disp}) => {
   return (
     <>
     <Infocontainer pageVisible={pageVisible} lightbg={lightbg} id={id}>
@@ -24,6 +24,7 @@ const Infosection = ({lightbg,id,imgStart,topLine,headline,lightText,darkText,de
               <ColumnTop>{topLine}</ColumnTop>
               <Columnheader lightText={lightText}>{headline}</Columnheader>
               <Columnpara darkText={darkText}>{description}</Columnpara>
+              <Columnpara darkText={darkText}>{description2}</Columnpara>
 
             </Textwrap>
           </Column1>
