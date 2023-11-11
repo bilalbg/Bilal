@@ -31,7 +31,7 @@ export const MainH1 = styled.h1`
   font-size:3rem;
   text-align:center;
   font-weight:bold;
-  text-shadow: -1px 1px 10px rgba(0, 0, 0, 0.75)
+  text-shadow: -1px 1px 20px rgba(0, 0, 0, 1)
 
 
 
@@ -42,7 +42,7 @@ export const MainP1 = styled.p`
   text-align:center;
   // font-weight:bold;
   max-width:600px;
-  text-shadow: -1px 1px 10px rgba(0, 0, 0, 0.75)
+  text-shadow: -1px 1px 20px rgba(0, 0, 0, 1)
 
 
 
