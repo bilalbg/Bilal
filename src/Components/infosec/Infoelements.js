@@ -77,7 +77,8 @@ max-width:440px;
 // margin-bottom:35px;
 font-size:18px;
 line-height:24px;
-color:${({darkText})=>(darkText ?'grey':'darkblue')}
+color:${({darkText})=>(darkText ?'white':'darkblue')}
+text-shadow: text-shadow: -1px 1px 5px rgba(0, 0, 0, 1);
 `
 export const Btnwrap = styled.div`
   display:flex;
