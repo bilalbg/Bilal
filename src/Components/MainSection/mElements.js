@@ -31,7 +31,7 @@ export const MainH1 = styled.h1`
   font-size:3rem;
   text-align:center;
   font-weight:bold;
-  textShadowColor: 'rgba(0,0,0,1)'
+  textShadowColor: 'rgba(0,0,0,1)';
 
 
 
