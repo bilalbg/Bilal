@@ -18,7 +18,7 @@ export const DropBarContainer = styled.aside`
 `
 
 export const CloseIcon = styled(FaTimes)`
-color:black;
+color:white;
 `
 
 export const Icon = styled.div`
