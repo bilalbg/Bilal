@@ -27,10 +27,11 @@ export const MainContent = styled.div`
   align-items:center;
 `
 export const MainH1 = styled.h1`
-  color=black;
+  color=white;
   font-size:3rem;
   text-align:center;
   font-weight:bold;
+  textShadowColor: 'rgba(0,0,0,1)'
 
 
 
