@@ -31,7 +31,9 @@ export const MainH1 = styled.h1`
   font-size:3rem;
   text-align:center;
   font-weight:bold;
-  textShadowColor: 'rgba(0,0,0,1)';
+  textShadowColor: 'rgba(0,0,0.75)';
+  textShadowOffset: {width: -1, height: 1;
+  textShadowRadius: 1;
 
 
 
@@ -42,7 +44,9 @@ export const MainP1 = styled.p`
   text-align:center;
   // font-weight:bold;
   max-width:600px;
-  textShadowColor: 'rgba(0,0,0,1)';
+  textShadowColor: 'rgba(0,0,0,0.75)';
+  textShadowOffset: {width: -1, height: 1};
+  textShadowRadius: 1;
 
 
 
