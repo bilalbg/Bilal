@@ -20,12 +20,11 @@ const Cards = () => {
             <Card.Title  >Natural Language Processing</Card.Title>
             <Card.Text >
               <ulist>
-                <li>Created a Latent Semantic Analysis algorithm for an English Wikipedia Dump text corpus of 
-                  490,000 documents in jupyter</li>
-                <li>Utilized <b> sklearn</b> to create a sparse matrix representation of the top 
-                  10,000 most frequent words from all 490,000 the documents </li>
-                <li>Visualized the top 300 most frequent words among 490,000 
-                  documents on a 2D graph using t-SNE </li>
+                <li>Developed a Latent Semantic Analysis algorithm for processing a vast English Wikipedia text corpus of 490,000
+                documents in <b>Jupyter notebook</b></li>
+                <li>Engineered a sparse matrix representation encompassing the top 10,000 frequently occurring words across all
+                490,000 documents, utilizing sklearn </li>
+                <li>Employed t-SNE to create a 2D visualization of the 300 most common words in a dataset </li>
               </ulist>
             </Card.Text>
             <Buttonpos>
@@ -44,10 +43,10 @@ const Cards = () => {
             <Card.Title >Webchat Application</Card.Title>
             <Card.Text style = {{padding:'12px 0px'}}>
               <ulist>
-                <li>Created a real time chat using <b> GO </b>  for the backend and <b>React JS </b> for the frontend   </li>
-                <li>Maintained Server and User information using <b>MongoDB</b></li>       
-                <li>Uses websockets to allow for instant communication between clients</li> 
-                <li>Applied Redis’ Publish-Subscribe pattern to allow for asynchronous messaging</li>
+                <li>Developed a real-time chat application using <b> GO </b>  for the backend and <b>React JS </b> for the frontend   </li>
+                <li>Managed server and user data efficiently through <b>MongoDB</b></li>       
+                <li>Implemented WebSocket technology to enable instant communication among users</li> 
+                <li>Enhanced performance and scalability by applying Redis’ Publish-Subscribe pattern for asynchronous messaging</li>
               </ulist>
             </Card.Text>
             < Buttonpos>
@@ -63,18 +62,18 @@ const Cards = () => {
         </Card>
         <Card className="bg-dark text-white">
           <Card.Body>
-            <Card.Title  > Tetris </Card.Title>
+            <Card.Title  > First Person Shooter Microgame </Card.Title>
             <Card.Text style = {{padding:'12px 0px'}} >
               <ulist>
-                <li>Tetris game made using <b>Python</b> and the <b>pygame</b> library </li>
-                <li>Developed scoring function to compete with ones self or others.</li>
-                <li> Expanded options to let players choose multiple difficulties 
-                  and a scaling difficulty to allow for the game to be more challenging and less monotone.</li>
+                <li>Created a First Person Shooter game using <b>Unity</b> and <b>C#</b> where the goal is to defeat all enemies in the zone with
+                different weapons and tools in the player’s arsenal </li>
+                <li>Curated a sound library of over 30 assets and creatively implemented them to create a more immersive and
+                enjoyable player experience</li>
               </ulist>
             </Card.Text>
             < Buttonpos>
               <Button variant="outline-primary" >
-              <a href="https://github.com/bilalbg/Gamedev/tree/master/pygame" 
+              <a href="https://github.com/bilalbg/FPS-Microgame/tree/main" 
                 target="_blank" rel="noreferrer"
               >
                 Github repository
