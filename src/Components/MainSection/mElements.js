@@ -27,7 +27,7 @@ export const MainContent = styled.div`
   align-items:center;
 `
 export const MainH1 = styled.h1`
-  color=white;
+  color:white;
   font-size:3rem;
   text-align:center;
   font-weight:bold;
@@ -37,7 +37,7 @@ export const MainH1 = styled.h1`
 
 `
 export const MainP1 = styled.p`
-  color=white;
+  color:white;
   font-size:1.5rem;
   text-align:center;
   // font-weight:bold;
