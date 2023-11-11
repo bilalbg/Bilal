@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { FaBars } from 'react-icons/fa';
 import { Link as LinkR} from 'react-router-dom'
 
 
@@ -56,6 +57,10 @@ export const NavLogo = styled(LinkR)`
       }
       
 `
+export const OpenIcon = styled(FaBars)`
+color:white;
+`
+
 
 export const MobileIcon= styled.div`
     display:none;
