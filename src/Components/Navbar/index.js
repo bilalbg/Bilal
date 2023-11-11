@@ -13,7 +13,8 @@ import {
     NavItem, 
     NavLinks,
     NavBtn,
-    NavBtnLink
+    NavBtnLink,
+    OpenIcon
 }from './NavElements';
 
 const Navbar = ({toggle}) => {
@@ -26,7 +27,7 @@ const Navbar = ({toggle}) => {
                 <NavbarContainer>
                     <NavLogo to = '/' onClick={toggleHome}>Bilal</NavLogo>
                     <MobileIcon onClick={toggle}>
-                        <FaBars/>
+                        <OpenIcon/>
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
