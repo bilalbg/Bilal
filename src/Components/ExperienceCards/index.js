@@ -21,15 +21,14 @@ const Cards = () => {
               <Card.Title  >Amazon</Card.Title>
               <Card.Text >
                 <ulist>
-                <li> Worked on services responsible for directing inventory across the world using 
-                <b>Java</b>,  <b>Typescript</b> and  <b>AWS Services</b></li> 
-                <li>• Designed and led implementation for a state machine workflow to ensure a response was received following requests 
-                for allocating <b>thousands</b> of items </li> 
-                <li>Planned and oversaw implementation for operational tools to allow our team to <b>save 20% of time spent on-call</b> 
-                and <b>prevent major business impacts</b> by automating a process to analyze and correct discrepancies between 
-                data stores for <b>millions</b> of items</li> 
-                <li><b>Deep dived</b> and corrected failure points and <b>maintained operational excellence</b> in our services during on-call</li> 
-                <li>Cooperated with external teams to integrate new business types</li>
+                <li>Developed Event Driven Architecture using <b>Java</b>,  <b>Typescript</b> and  <b>AWS Services</b>
+                ,for controlling global inventory events and ensuring accurate inventory levels</li> 
+                <li>Spearheaded the replacement of an obsolete inventory tracking system with a state machine workflow, enhancing
+                operational accuracy by <b>40% </b> </li> 
+                <li>Planned and executed automation tools, resulting in a <b>20%</b> reduction in on-call hours and the proactive mitigation
+                of business impacts due to discrepancies in data stores for millions of items</li> 
+                <li>Mentored junior engineers through guidance, facilitating their skill development and team success</li> 
+                <li>Identified and addressed failure points to maintain operational excellence during on-call responsibilities</li>
                 </ulist>
               </Card.Text>
             </Card.Body>
