@@ -24,6 +24,7 @@ const Infosection = ({lightbg,id,imgStart,topLine,headline,lightText,darkText,de
               <ColumnTop>{topLine}</ColumnTop>
               <Columnheader lightText={lightText}>{headline}</Columnheader>
               <Columnpara darkText={darkText}>{description}</Columnpara>
+              <br/>
               <Columnpara darkText={darkText}>{description2}</Columnpara>
 
             </Textwrap>
