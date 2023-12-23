@@ -14,7 +14,28 @@ const Cards = () => {
   return (
     <>
       <Cardcontainer>
-        
+        <Card className="bg-dark text-white">
+          <Card.Body>
+            <Card.Title  > Quotetaking: A quote taking app for iOS </Card.Title>
+            <Card.Text style = {{padding:'12px 0px'}} >
+              <ulist>
+                <li>Created an iOS app to conveniently save quotes from thousands of books using <b>Swift</b> and <b>SwiftUI</b></li>
+                <li>Employed the <b>Core Data</b> framework to store, manage and organize user data</li>
+                <li>Utilized the Vision framework to allow users to quickly and easily extract quotes from images</li>
+                <li>• Enable features that allow users to share quotes directly to social media</li>
+              </ulist>
+            </Card.Text>
+            < Buttonpos>
+              <Button variant="outline-primary" >
+              <a href="https://github.com/bilalbg/Quotetaking" 
+                target="_blank" rel="noreferrer"
+              >
+                Github repository
+              </a>
+              </Button>
+            </Buttonpos>
+          </Card.Body>
+        </Card>
         <Card className="bg-dark text-white">
           <Card.Body>
             <Card.Title  >Natural Language Processing</Card.Title>
@@ -57,28 +78,6 @@ const Cards = () => {
               Github repository
             </a>
             </Button>
-            </Buttonpos>
-          </Card.Body>
-        </Card>
-        <Card className="bg-dark text-white">
-          <Card.Body>
-            <Card.Title  > First Person Shooter Microgame </Card.Title>
-            <Card.Text style = {{padding:'12px 0px'}} >
-              <ulist>
-                <li>Created a First Person Shooter game using <b>Unity</b> and <b>C#</b> where the goal is to defeat all enemies in the zone with
-                different weapons and tools in the player’s arsenal </li>
-                <li>Curated a sound library of over 30 assets and creatively implemented them to create a more immersive and
-                enjoyable player experience</li>
-              </ulist>
-            </Card.Text>
-            < Buttonpos>
-              <Button variant="outline-primary" >
-              <a href="https://github.com/bilalbg/FPS-Microgame/tree/main" 
-                target="_blank" rel="noreferrer"
-              >
-                Github repository
-              </a>
-              </Button>
             </Buttonpos>
           </Card.Body>
         </Card>
