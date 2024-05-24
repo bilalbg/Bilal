@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-// import {animated, useSpring} from 'react-spring';
 
 export const Cardcontainer = styled.div`
   display:grid;
