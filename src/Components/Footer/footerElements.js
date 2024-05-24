@@ -2,17 +2,14 @@ import styled from 'styled-components'
 
 
 export const Foot=styled.footer`
-  // background:lightblue;
   background: #272644;
   padding:48px 24px;
   flex-direction:column;
 
   height:80px;
-  // position:static;
   bottom:0;
   position:fixed;
   width:100%;
-  // margin-top:-80px;
   z-index:1000;
   display:flex;
   justify-content:center;
@@ -55,7 +52,6 @@ export const FooterH1 = styled.h1`
 export const Footeritems = styled.ul`
 justify-content:center;
 display:flex;
-// align-items:center;
 list-style:none;
 margin-right:-22px;
 @media screen and (max-width:700px){
