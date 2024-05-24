@@ -10,16 +10,13 @@ export const Cardcontainer = styled.div`
   grid-gap:2vw;
   justify-content:center;
   align-items:center;
-  // background:lightyellow;
   padding-bottom:10px;
 
   @media screen and (max-width:1250px){
     grid-template-columns:1fr ;
-    // height:60vh;
     width:95vw;
     grid-gap:1vw;
     padding-bottom:10vh;
-    // padding:100px;
     height:70vh;
   }
   
@@ -29,8 +26,6 @@ export const Cardcontainer = styled.div`
     width:90vw;
     grid-gap:2vw;
     padding-top:100px;
-    // padding-bottom:100px;
-    // padding:100px;
   }
   
 
@@ -48,6 +43,5 @@ padding:5px;
 export const Img=styled.img`
   left:15vw;
   margin-left: 40%;
-  // padding-right:0;
     width:15%;
 `
