@@ -5,16 +5,13 @@ import { Link as LinkR} from 'react-router-dom'
 
 export const Nav=styled.nav`
 
-// background:lightblue;
 background:#272644;
 padding:48px 24px;
 flex-direction:row;
 height:80px;
-// position:static;
 top:0;
 position:fixed;
 width:100%;
-// margin-top:-80px;
 z-index:1000;
 display:flex;
 justify-content:center;
