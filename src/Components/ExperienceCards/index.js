@@ -26,9 +26,6 @@ const Cards = () => {
               </Card.Text>
             </Card.Body>
         </Card>
-      </Cardcontainer>
-                  
-      <Cardcontainer>
         
         <Card className="bg-dark text-white">
            <Img src={amzn} width="30vw"/>
