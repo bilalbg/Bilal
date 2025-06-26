@@ -43,9 +43,9 @@ const Cards = () => {
               <ulist>
                 <li>Developed a Latent Semantic Analysis algorithm for processing a vast English Wikipedia text corpus of 490,000
                 documents in <b>Jupyter notebook</b></li>
-                <li>Engineered a sparse matrix representation encompassing the top 10,000 frequently occurring words across all
-                490,000 documents, utilizing sklearn </li>
-                <li>Employed t-SNE to create a 2D visualization of the 300 most common words in a dataset </li>
+                <li>Crafted a PPMI matrix derived from a sparse matrix representation of the top 10,000 words across all documents
+ </li>
+                <li>Built a Matrix Factorization algorithm implementing Stochastic Gradient Descent from scratch using NumPy </li>
               </ulist>
             </Card.Text>
             <Buttonpos>
@@ -61,13 +61,13 @@ const Cards = () => {
         </Card>
         <Card className="bg-dark text-white">
           <Card.Body>
-            <Card.Title >Webchat Application</Card.Title>
+            <Card.Title >Crossroads: A Social app</Card.Title>
             <Card.Text style = {{padding:'12px 0px'}}>
               <ulist>
-                <li>Developed a real-time chat application using <b> GO </b>  for the backend and <b>React JS </b> for the frontend   </li>
-                <li>Managed server and user data efficiently through <b>MongoDB</b></li>       
-                <li>Implemented WebSocket technology to enable instant communication among users</li> 
-                <li>Enhanced performance and scalability by applying Redis’ Publish-Subscribe pattern for asynchronous messaging</li>
+                <li>• Lead developer for an iOS social app that connects users with nearby individuals using real-time location data,
+utilizing <b>Swift</b>, <b>SwiftUI</b> and <b>Firebase</b> </li>
+                <li>Increased app security by generating and hashing a cryptographically random nonce for authentication requests,
+mitigating replay attacks</li>       
               </ulist>
             </Card.Text>
             < Buttonpos>
