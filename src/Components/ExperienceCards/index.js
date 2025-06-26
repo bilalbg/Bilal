@@ -21,7 +21,11 @@ const Cards = () => {
               <Card.Title  >Hack for LA (Volunteer) </Card.Title>
               <Card.Text >
                 <ulist>
-                <li>Collaborated with a team of researchers, designers and developers to create a Web Traffic Demand Management tool for the LA Department of Transportation using React, Javascript and SQL </li> 
+                <li> Collaborated with a multidisciplinary team to create a Web Traffic Demand Management tool for the LADepartment of Transportation using <b>React</b>, <b>Javascript</b>, <b>MSSQL</b>,
+                                                                                                                                                        <b>Express.JS</b> and <b>Node.JS</b> </li> 
+                <li>Enhanced UI functionality and User Experience by 30% by evaluating and migrating to an expanded icon npm package</li>
+                <li>Engineered share snapshot functionality by constructing a database object, API endpoints, and Stored Procedures to allow users to control other users’ access to view snapshots, improving app functionality
+</li>
                 </ulist>
               </Card.Text>
             </Card.Body>
